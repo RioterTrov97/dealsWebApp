@@ -1,0 +1,44 @@
+.headingOption {
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+	color: gray;
+	cursor: pointer;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+
+.headingOption:hover {
+	color: green;
+}
+
+.headingOption__title {
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 3px;
+}
+
+.headingOption__icon {
+	object-fit: contain;
+	height: 30px !important;
+	width: 30px !important;
+}
+.headingOption__icon1 {
+	object-fit: cover;
+	height: 25px !important;
+	width: 25px !important;
+}
+.headingMenuOption__svg {
+	fill: gray;
+	object-fit: contain;
+	height: 25px !important;
+	width: 25px !important;
+}
+
+@media only screen and (max-width: 900px) {
+	.headingOption {
+		padding-right: 5px;
+		margin: 0;
+	}
+}

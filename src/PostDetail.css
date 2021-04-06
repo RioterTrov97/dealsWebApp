@@ -1,0 +1,45 @@
+.postDetail {
+	min-width: 60vw;
+	max-width: 60vw;
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	min-height: 81vh;
+	background: white;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.innerDetails {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.innerDetails > img {
+	object-fit: scale-down;
+	padding-top: 20px;
+	height: 400px;
+	width: 55vw;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+
+.descriptions {
+	padding-top: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+	.postDetail {
+		min-width: 90vw;
+		max-width: 90vw;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.innerDetails > img {
+		width: 80vw;
+	}
+}

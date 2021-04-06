@@ -1,0 +1,10 @@
+.feed {
+	margin: 0 20px;
+}
+
+@media only screen and (max-width: 900px) {
+	.feed {
+		align-items: center;
+		margin: 0;
+	}
+}

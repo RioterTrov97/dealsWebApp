@@ -1,0 +1,231 @@
+.submit {
+	display: flex;
+	flex-direction: column;
+	min-width: 46vw;
+	max-width: 46vw;
+	margin: 10px;
+	margin-left: 40px;
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+	justify-content: flex-end;
+	margin-bottom: 10px;
+	font-size: 28px;
+	color: green;
+}
+
+.submit > form {
+	display: flex;
+	flex-direction: column;
+	min-width: 45vw;
+	max-width: 45vw;
+}
+
+.submit > form > select {
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	padding-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.submit > form > input {
+	width: 90%;
+	height: 40px;
+	font-size: 16px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	overflow: hidden;
+}
+
+.submit > form > input:focus {
+	background: rgb(224, 250, 224);
+	color: green;
+	outline: none;
+}
+
+.submit > form > select:focus {
+	background: rgb(224, 250, 224);
+	color: green;
+	outline: none;
+}
+
+.submit__checkbox {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.submit__checkbox > p {
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.submit > form > label {
+	color: gray;
+}
+
+.submit > form > button {
+	width: 200px;
+	height: 50px;
+	margin-top: 10px;
+	font-size: large;
+	color: #fff;
+	background-color: #0074b1;
+	border-radius: 5px;
+}
+
+.submit > form > button:hover {
+	background-color: #1e90ff;
+}
+
+.ck.ck-editor {
+	width: 100%;
+	overflow-x: hidden;
+	z-index: 1;
+	border-radius: 5px !important;
+}
+
+.ck-toolbar {
+	border: none !important;
+	outline: none !important;
+	background: rgb(233, 233, 233) !important;
+	border-radius: 10px !important;
+	margin-top: 3px !important;
+}
+
+.ck-editor__editable {
+	min-height: 100px !important;
+	border: none !important;
+	outline: none i !important;
+	border-radius: 5px !important;
+	color: rgb(87, 87, 87) !important;
+}
+
+.descriptBox {
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 10px;
+	width: 90%;
+}
+
+.descriptInputBox > input {
+	border: none;
+	outline: none;
+	width: 98%;
+	font-size: 16px;
+	padding-left: 10px;
+	border-bottom: 1px solid gray;
+	padding-bottom: 8px;
+}
+
+.descriptEditorBox {
+	border-bottom: 1px solid gray;
+}
+
+.descriptButtons {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.descriptButts {
+	flex-direction: column;
+	display: none;
+}
+
+.descriptButtons > button {
+	margin-left: 10px;
+	border: none;
+	outline: none;
+	background: none;
+	padding: 8px;
+	border-radius: 5px;
+	color: rgb(94, 94, 94);
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.showLess {
+	border: none;
+	outline: none;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: rgb(70, 70, 70);
+	font-weight: bold;
+}
+
+.descriptButtons > button:hover {
+	background: rgb(180, 255, 180);
+}
+
+.nolabelView {
+	display: none;
+}
+
+.labelView {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.labelView > div {
+	padding-top: 10px;
+}
+
+.labelView > div > label {
+	color: rgb(94, 94, 94);
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.labelView > div > input {
+	margin-left: 10px;
+	height: 40px;
+	border-radius: 10px;
+	width: 80%;
+	border: 1px solid gray;
+}
+
+.labelView > div > input:focus {
+	border: 1px solid green;
+	outline: none;
+	background: rgb(224, 250, 224);
+}
+
+.labelView > div > select {
+	margin-left: 10px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+.labelView > div > select:focus {
+	border: 1px solid green;
+	background: rgb(224, 250, 224);
+}
+
+@media only screen and (max-width: 900px) {
+	.submit {
+		min-width: 90vw;
+		max-width: 90vw;
+		padding: 10px;
+	}
+
+	.submit > form {
+		min-width: 95vw;
+		max-width: 95vw;
+	}
+}
